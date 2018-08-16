@@ -1,7 +1,6 @@
 package com.sinoshem.corelib;
 
 import com.facebook.stetho.okhttp3.StethoInterceptor;
-import com.sinoshem.corelibrary.BuildConfig;
 
 import java.util.concurrent.TimeUnit;
 

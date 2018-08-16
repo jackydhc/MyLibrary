@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sinoshem.corelibrary.net.CoreApplication;
-import com.sinoshem.corelibrary.net.mvp.MvpView;
+import com.sinoshem.corelib.CoreApplication;
+import com.sinoshem.corelib.mvp.MvpView;
 import com.squareup.leakcanary.RefWatcher;
 import com.trello.rxlifecycle.components.support.RxFragment;
 
@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
  * @author jackydu
  * @date 2018/8/15
  */
-public abstract class BaseFragment extends RxFragment implements MvpView{
+public abstract class BaseFragment extends RxFragment implements MvpView {
 
     /**
      * 绑定到当前的attach的activity上.可强转
